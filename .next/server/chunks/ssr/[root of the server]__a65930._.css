@@ -628,6 +628,10 @@
     bottom: calc(var(--spacing) * 8);
   }
 
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
+
   .left-1 {
     left: calc(var(--spacing) * 1);
   }
@@ -850,6 +854,10 @@
 
   .h-24 {
     height: calc(var(--spacing) * 24);
+  }
+
+  .h-40 {
+    height: calc(var(--spacing) * 40);
   }
 
   .h-52 {
@@ -1274,6 +1282,11 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
 
+  .to-\[\#0a0a0a\] {
+    --tw-gradient-to: #0a0a0a;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .to-blue-900 {
     --tw-gradient-to: var(--color-blue-900);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -1322,12 +1335,20 @@
     background-size: 200%;
   }
 
+  .bg-cover {
+    background-size: cover;
+  }
+
   .bg-clip-text {
     background-clip: text;
   }
 
   .bg-\[bottom\] {
     background-position: bottom;
+  }
+
+  .bg-center {
+    background-position: center;
   }
 
   .fill-current {
@@ -1390,6 +1411,10 @@
     padding-inline: calc(var(--spacing) * 6);
   }
 
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
+
   .py-0 {
     padding-block: calc(var(--spacing) * 0);
   }
@@ -1426,6 +1451,14 @@
     padding-block: calc(var(--spacing) * 16);
   }
 
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
+
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
+
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
@@ -1454,6 +1487,10 @@
     font-family: var(--font-inter);
   }
 
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
   .font-nacelle {
     font-family: var(--font-nacelle);
   }
@@ -1474,6 +1511,17 @@
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
     letter-spacing: var(--tw-tracking, var(--text-4xl--letter-spacing));
+  }
+
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
+    letter-spacing: var(--tw-tracking, var(--text-6xl--letter-spacing));
+  }
+
+  .text-8xl {
+    font-size: var(--text-8xl);
+    line-height: var(--tw-leading, var(--text-8xl--line-height));
   }
 
   .text-base {
@@ -2414,6 +2462,12 @@
     }
   }
 
+  @media (width >= 40rem) {
+    .sm\:px-10 {
+      padding-inline: calc(var(--spacing) * 10);
+    }
+  }
+
   @media (width >= 48rem) {
     .md\:col-span-4 {
       grid-column: span 4 / span 4;
@@ -2487,6 +2541,36 @@
   }
 
   @media (width >= 48rem) {
+    .md\:py-25 {
+      padding-block: calc(var(--spacing) * 25);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:py-30 {
+      padding-block: calc(var(--spacing) * 30);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:py-40 {
+      padding-block: calc(var(--spacing) * 40);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:py-45 {
+      padding-block: calc(var(--spacing) * 45);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:py-50 {
+      padding-block: calc(var(--spacing) * 50);
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:pb-12 {
       padding-bottom: calc(var(--spacing) * 12);
     }
@@ -2517,6 +2601,28 @@
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
       letter-spacing: var(--tw-tracking, var(--text-5xl--letter-spacing));
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-7xl {
+      font-size: var(--text-7xl);
+      line-height: var(--tw-leading, var(--text-7xl--line-height));
+      letter-spacing: var(--tw-tracking, var(--text-7xl--letter-spacing));
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-8xl {
+      font-size: var(--text-8xl);
+      line-height: var(--tw-leading, var(--text-8xl--line-height));
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-9xl {
+      font-size: var(--text-9xl);
+      line-height: var(--tw-leading, var(--text-9xl--line-height));
     }
   }
 
@@ -2553,6 +2659,18 @@
   @media (width >= 64rem) {
     .lg\:text-right {
       text-align: right;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:text-\[9rem\] {
+      font-size: 9rem;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:text-\[10rem\] {
+      font-size: 10rem;
     }
   }
 
