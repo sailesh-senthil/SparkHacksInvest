@@ -20,7 +20,7 @@ const investments = [
         quarterlyRevenue: "$50,000",
         employees: 5,
         riskAssessment: "73% Return",
-        askingPrice: "$100,000 for 20% equity",
+        askingPrice: "$1000 for 2% equity",
         imageUrl: "/images/floria-table.jpg"
     },
     {
@@ -32,7 +32,7 @@ const investments = [
         quarterlyRevenue: "$150,000",
         employees: 25,
         riskAssessment: "85% Return",
-        askingPrice: "$250,000 for 30% equity",
+        askingPrice: "$2500 for 3% equity",
         imageUrl: "/images/nathans-hotdogs.jpg"
     },
     {
@@ -44,7 +44,7 @@ const investments = [
         quarterlyRevenue: "$45,000",
         employees: 4,
         riskAssessment: "60% Return",
-        askingPrice: "$50,000 for 15% equity",
+        askingPrice: "$5000 for 8% equity",
         imageUrl: "/images/localtech.jpg"
     },
     {
@@ -56,7 +56,7 @@ const investments = [
         quarterlyRevenue: "$75,000",
         employees: 8,
         riskAssessment: "70% Return",
-        askingPrice: "$80,000 for 25% equity",
+        askingPrice: "$4000 for 5% equity",
         imageUrl: "/images/ecowear-handmade.jpg"
     },
     {
@@ -68,7 +68,7 @@ const investments = [
         quarterlyRevenue: "$90,000",
         employees: 10,
         riskAssessment: "65% Return",
-        askingPrice: "$120,000 for 20% equity",
+        askingPrice: "$1200 for 2% equity",
         imageUrl: "/images/freshfarm-market.jpg"
     },
     {
@@ -80,7 +80,7 @@ const investments = [
         quarterlyRevenue: "$35,000",
         employees: 3,
         riskAssessment: "55% Return",
-        askingPrice: "$40,000 for 15% equity",
+        askingPrice: "$4000 for 10% equity",
         imageUrl: "/images/aerosnap.jpg"
     },
     {
@@ -92,7 +92,7 @@ const investments = [
         quarterlyRevenue: "$80,000",
         employees: 6,
         riskAssessment: "75% Return",
-        askingPrice: "$90,000 for 18% equity",
+        askingPrice: "$9000 for 15% equity",
         imageUrl: "/images/sunflower-bakery.jpg"
     },
     {
@@ -104,7 +104,7 @@ const investments = [
         quarterlyRevenue: "$60,000",
         employees: 7,
         riskAssessment: "68% Return",
-        askingPrice: "$70,000 for 22% equity",
+        askingPrice: "$7000 for 10% equity",
         imageUrl: "/images/bytefix.jpg"
     },
     {
@@ -116,7 +116,7 @@ const investments = [
         quarterlyRevenue: "$95,000",
         employees: 12,
         riskAssessment: "78% Return",
-        askingPrice: "$110,000 for 25% equity",
+        askingPrice: "$1400 for 5% equity",
         imageUrl: "/images/greenscape.jpg"
     },
     {
@@ -128,7 +128,7 @@ const investments = [
         quarterlyRevenue: "$40,000",
         employees: 5,
         riskAssessment: "58% Return",
-        askingPrice: "$45,000 for 15% equity",
+        askingPrice: "$2000 for 5% equity",
         imageUrl: "/images/pethaven.jpg"
     }
 ];

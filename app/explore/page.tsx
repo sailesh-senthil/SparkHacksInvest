@@ -53,14 +53,14 @@ export default function ExplorePage() {
         <p className="text-yellow-300 font-bold text-lg mt-3">Asking Price: {investments[index].askingPrice}</p>
       </div>
       <div className="flex gap-4 mt-6">
-        <button onClick={handleReject} className="bg-red-500 text-white px-4 py-2 rounded flex items-center gap-2 hover:bg-red-400">
+        <button onClick={handleReject} className="bg-red-500 text-white text-xl px-12 py-4 rounded flex items-center gap-2 hover:bg-red-400">
           <XCircle size={20} /> Reject
         </button>
         <button 
         onClick={handleInvest} 
-        className="bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-400 shadow-lg text-lg font-bold"
+        className="bg-green-500 text-white text-xl px-12 py-4 rounded flex items-center gap-2 hover:bg-green-400"
         >
-          <span className="text-white">$$</span>
+          <span className="text-white">💰 Invest</span>
           </button>
       </div>
     </div>
