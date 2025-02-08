@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestMatch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f6fd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1e3a8a; /* Full blue background */
+            padding: 20px 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        .navbar .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: white; /* White text */
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white; /* White text for links */
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .main-content {
+            margin-top: 80px;
+        }
+
+        .headline {
+            font-size: 48px;
+            font-weight: 600;
+            color: #1e3a8a; /* Blue color for the main text */
+            margin-bottom: 20px;
+        }
+
+        .subheadline {
+            font-size: 20px;
+            color: #d1d5db; /* Light grey for the smaller text */
+            margin-bottom: 40px;
+        }
+
+        .sign-up-btn {
+            text-align: center;
+            padding: 14px 30px;
+            background-color: #1e3a8a;
+            color: white;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .sign-up-btn:hover {
+            background-color: #16306d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="logo">InvestMatch</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="headline">Like what you see?</div>
+        <div class="subheadline">The new investing experience that connects you with small businesses. Sign up to learn more.</div>
+        <a href="signUp.html" class="sign-up-btn">Sign Up</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f6fd;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* align to the top of the page */
+            min-height: 100vh; /* Ensure the page height is at least 100% of the viewport */
+            overflow-y: auto; /* Allow vertical scrolling */
+            padding: 20px;
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1e3a8a; /* Full blue background */
+            padding: 20px 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        .navbar .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: white; /* White text */
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white; /* White text for links */
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .sign-up-form {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px; /* Restrict the width */
+            margin-top: 120px; /* Space for the navbar */
+            margin-bottom: 40px; /* Ensure some space at the bottom */
+        }
+
+        .sign-up-form h2 {
+            font-size: 32px;
+            color: #1e3a8a;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-size: 16px;
+            color: #333;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-top: 6px;
+            background-color: #f9fafb;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"] {
+            font-size: 16px;
+        }
+
+        .form-group select {
+            font-size: 16px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: #1e3a8a;
+            color: white;
+            font-weight: 600;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #16306d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="logo">InvestMatch</div>
+        <div class="nav-links">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="explore.html">Explore</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+
+    <!-- Sign-Up Form -->
+    <div class="sign-up-form">
+        <h2>Sign Up to InvestMatch</h2>
+
+        <!-- User Details Section -->
+        <form id="signUpForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="linkedin">LinkedIn Profile</label>
+                <input type="text" id="linkedin" name="linkedin" placeholder="Your LinkedIn URL" required>
+            </div>
+
+            <div class="form-group">
+                <label for="investment-range">Range of Willing Investment Value</label>
+                <input type="text" id="investment-range" name="investment-range" placeholder="e.g., $1,000 - $5,000" required>
+            </div>
+
+            <div class="form-group">
+                <label for="interests">Investment Interests</label>
+                <input type="text" id="interests" name="interests" placeholder="e.g., Tech, Startups, Healthcare" required>
+            </div>
+
+            <!-- Investor Type Selection -->
+            <div class="form-group">
+                <label for="investor-type">Investor Type</label>
+                <select id="investor-type" name="investor-type" required>
+                    <option value="" disabled selected>Select your investor type</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="experienced">Experienced</option>
+                </select>
+            </div>
+
+            <!-- Profile Photo Section -->
+            <div class="form-group">
+                <label for="profile-photo">Profile Photo URL</label>
+                <input type="text" id="profile-photo" name="profile-photo" placeholder="Enter image URL" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("signUpForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // Collecting form data
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const linkedin = document.getElementById("linkedin").value;
+            const investmentRange = document.getElementById("investment-range").value;
+            const interests = document.getElementById("interests").value;
+            const investorType = document.getElementById("investor-type").value;
+            const profilePhoto = document.getElementById("profile-photo").value;
+
+            // Storing data in localStorage
+            localStorage.setItem("name", name);
+            localStorage.setItem("email", email);
+            localStorage.setItem("linkedin", linkedin);
+            localStorage.setItem("investmentRange", investmentRange);
+            localStorage.setItem("interests", interests);
+            localStorage.setItem("investorType", investorType);
+            localStorage.setItem("profilePhoto", profilePhoto);
+
+            // Redirecting to profile page
+            window.location.href = "profile.html";
+        });
+    </script>
+
+</body>
+</html>
