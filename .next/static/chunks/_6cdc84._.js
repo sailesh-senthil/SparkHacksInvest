@@ -315,7 +315,7 @@ function useMousePosition() {
     }["useMousePosition.useEffect"], []);
     return mousePosition;
 }
-_s(useMousePosition, "jiWDNcZ06l0uXF96kTJLad0fCJc=");
+_s(useMousePosition, "xsZ4oXLkOP0KnqTwAbN+/ZVPhrg=");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }

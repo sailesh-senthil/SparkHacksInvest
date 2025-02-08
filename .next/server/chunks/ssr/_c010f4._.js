@@ -247,7 +247,7 @@ function HeroHome() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl",
                                 "data-aos": "fade-up",
-                                children: "AI-driven tools for product teams"
+                                children: "INVESTMATCH"
                             }, void 0, false, {
                                 fileName: "[project]/components/hero-home.tsx",
                                 lineNumber: 12,
@@ -260,7 +260,7 @@ function HeroHome() {
                                         className: "mb-8 text-xl text-indigo-200/65",
                                         "data-aos": "fade-up",
                                         "data-aos-delay": 200,
-                                        children: "Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever."
+                                        children: "Invest in small businesses today!"
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero-home.tsx",
                                         lineNumber: 19,
@@ -284,23 +284,23 @@ function HeroHome() {
                                                                 children: "->"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/hero-home.tsx",
-                                                                lineNumber: 35,
+                                                                lineNumber: 34,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/hero-home.tsx",
-                                                        lineNumber: 33,
+                                                        lineNumber: 32,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero-home.tsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 28,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero-home.tsx",
-                                                lineNumber: 28,
+                                                lineNumber: 27,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -312,18 +312,18 @@ function HeroHome() {
                                                     children: "Schedule Demo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/hero-home.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 41,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/hero-home.tsx",
-                                                lineNumber: 41,
+                                                lineNumber: 40,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/hero-home.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 26,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -348,7 +348,7 @@ function HeroHome() {
                         videoHeight: 1080
                     }, void 0, false, {
                         fileName: "[project]/components/hero-home.tsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 11
                     }, this)
                 ]
