@@ -644,10 +644,13 @@
     z-index: calc(10 * -1);
   }
 
+<<<<<<< Updated upstream
   .z-0 {
     z-index: 0;
   }
 
+=======
+>>>>>>> Stashed changes
   .z-10 {
     z-index: 10;
   }
@@ -760,6 +763,10 @@
     margin-top: calc(var(--spacing) * 8);
   }
 
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
@@ -864,20 +871,30 @@
     height: calc(var(--spacing) * 24);
   }
 
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
+
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
   .h-45 {
     height: calc(var(--spacing) * 45);
   }
 
+=======
+>>>>>>> Stashed changes
   .h-48 {
     height: calc(var(--spacing) * 48);
   }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   .h-52 {
     height: calc(var(--spacing) * 52);
@@ -907,12 +924,25 @@
     width: calc(var(--spacing) * 8);
   }
 
+  .w-11 {
+    width: calc(var(--spacing) * 11);
+  }
+
+  .w-11\/12 {
+    width: 91.6667%;
+  }
+
   .w-24 {
     width: calc(var(--spacing) * 24);
   }
 
+<<<<<<< Updated upstream
   .w-40 {
     width: calc(var(--spacing) * 40);
+=======
+  .w-32 {
+    width: calc(var(--spacing) * 32);
+>>>>>>> Stashed changes
   }
 
   .w-48 {
@@ -1027,6 +1057,10 @@
     animation: 6s linear infinite gradient;
   }
 
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
   .resize {
     resize: both;
   }
@@ -1081,6 +1115,10 @@
 
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
   }
 
   .gap-6 {
@@ -1238,6 +1276,13 @@
     background-color: var(--color-red-500);
   }
 
+<<<<<<< Updated upstream
+=======
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
+
+>>>>>>> Stashed changes
   .bg-white {
     background-color: var(--color-white);
   }
@@ -1445,6 +1490,10 @@
     padding: calc(var(--spacing) * 3);
   }
 
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -1457,6 +1506,7 @@
     padding: calc(var(--spacing) * 8);
   }
 
+<<<<<<< Updated upstream
   .p-9 {
     padding: calc(var(--spacing) * 9);
   }
@@ -1469,6 +1519,8 @@
     padding: calc(var(--spacing) * 12);
   }
 
+=======
+>>>>>>> Stashed changes
   .p-px {
     padding: 1px;
   }
@@ -1495,6 +1547,10 @@
 
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
+  }
+
+  .px-12 {
+    padding-inline: calc(var(--spacing) * 12);
   }
 
   .py-0 {
@@ -1541,6 +1597,10 @@
     padding-block: calc(var(--spacing) * 30);
   }
 
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
+  }
+
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
@@ -1563,6 +1623,10 @@
 
   .text-center {
     text-align: center;
+  }
+
+  .text-left {
+    text-align: left;
   }
 
   .font-inter {
@@ -1689,6 +1753,13 @@
     color: var(--color-blue-800);
   }
 
+<<<<<<< Updated upstream
+=======
+  .text-blue-900 {
+    color: var(--color-blue-900);
+  }
+
+>>>>>>> Stashed changes
   .text-cyan-300 {
     color: var(--color-cyan-300);
   }
@@ -1903,6 +1974,11 @@
     transition-property: transform, translate, scale, rotate;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  .duration-200 {
+    --tw-duration: .2s;
+    transition-duration: .2s;
   }
 
   .duration-300 {
@@ -2391,8 +2467,26 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-red-700:hover {
+      background-color: var(--color-red-700);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-white:hover {
+      background-color: var(--color-white);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-\[length\:100\%_150\%\]:hover {
       background-size: 100% 150%;
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-blue-900:hover {
+      color: var(--color-blue-900);
     }
   }
 
@@ -2548,12 +2642,6 @@
     }
   }
 
-  @media (width >= 40rem) {
-    .sm\:px-10 {
-      padding-inline: calc(var(--spacing) * 10);
-    }
-  }
-
   @media (width >= 48rem) {
     .md\:col-span-4 {
       grid-column: span 4 / span 4;
@@ -2627,32 +2715,8 @@
   }
 
   @media (width >= 48rem) {
-    .md\:py-25 {
-      padding-block: calc(var(--spacing) * 25);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:py-30 {
-      padding-block: calc(var(--spacing) * 30);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:py-40 {
-      padding-block: calc(var(--spacing) * 40);
-    }
-  }
-
-  @media (width >= 48rem) {
     .md\:py-45 {
       padding-block: calc(var(--spacing) * 45);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:py-50 {
-      padding-block: calc(var(--spacing) * 50);
     }
   }
 
@@ -2687,21 +2751,6 @@
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
       letter-spacing: var(--tw-tracking, var(--text-5xl--letter-spacing));
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:text-7xl {
-      font-size: var(--text-7xl);
-      line-height: var(--tw-leading, var(--text-7xl--line-height));
-      letter-spacing: var(--tw-tracking, var(--text-7xl--letter-spacing));
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:text-8xl {
-      font-size: var(--text-8xl);
-      line-height: var(--tw-leading, var(--text-8xl--line-height));
     }
   }
 
@@ -2751,12 +2800,6 @@
   @media (width >= 64rem) {
     .lg\:text-\[9rem\] {
       font-size: 9rem;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:text-\[10rem\] {
-      font-size: 10rem;
     }
   }
 

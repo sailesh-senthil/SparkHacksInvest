@@ -139,7 +139,7 @@ const investorProfile = {
     linkedin: "linkedin.com/sabrina-arshad",
     maxInvestmentValue: "$50K",
     investorType: "Beginner",
-    profileImage: "/images/investor.jpg"
+    profileImage: "/images/testimonial-08.jpg"
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
@@ -162,7 +162,11 @@ function ProfilePage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "h-screen flex justify-center items-center bg-blue-950 p-6",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+<<<<<<< Updated upstream
             className: "bg-white p-8 rounded-3xl shadow-xl w-full max-w-2xl z-10 flex flex-col items-center text-center",
+=======
+            className: "bg-white p-3 rounded-3xl shadow-xl w-full max-w-2xl z-10 flex flex-col items-center text-center",
+>>>>>>> Stashed changes
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "relative mb-6",
@@ -173,12 +177,20 @@ function ProfilePage() {
                     }, void 0, false, {
                         fileName: "[project]/app/profile/page.tsx",
                         lineNumber: 11,
+<<<<<<< Updated upstream
                         columnNumber: 11
+=======
+                        columnNumber: 1
+>>>>>>> Stashed changes
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/profile/page.tsx",
                     lineNumber: 10,
+<<<<<<< Updated upstream
                     columnNumber: 9
+=======
+                    columnNumber: 1
+>>>>>>> Stashed changes
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "text-4xl font-bold text-blue-800 mb-4",
@@ -186,7 +198,11 @@ function ProfilePage() {
                 }, void 0, false, {
                     fileName: "[project]/app/profile/page.tsx",
                     lineNumber: 19,
+<<<<<<< Updated upstream
                     columnNumber: 9
+=======
+                    columnNumber: 1
+>>>>>>> Stashed changes
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-gray-700 text-lg space-y-4",
@@ -199,7 +215,11 @@ function ProfilePage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 23,
+<<<<<<< Updated upstream
                                     columnNumber: 14
+=======
+                                    columnNumber: 4
+>>>>>>> Stashed changes
                                 }, this),
                                 " ",
                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["investorProfile"].email
@@ -207,7 +227,11 @@ function ProfilePage() {
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 23,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
@@ -217,7 +241,11 @@ function ProfilePage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 24,
+<<<<<<< Updated upstream
                                     columnNumber: 14
+=======
+                                    columnNumber: 4
+>>>>>>> Stashed changes
                                 }, this),
                                 " ",
                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["investorProfile"].phone
@@ -225,7 +253,11 @@ function ProfilePage() {
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 24,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
@@ -235,7 +267,11 @@ function ProfilePage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 26,
+<<<<<<< Updated upstream
                                     columnNumber: 13
+=======
+                                    columnNumber: 1
+>>>>>>> Stashed changes
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: `https://${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["investorProfile"].linkedin}`,
@@ -244,13 +280,21 @@ function ProfilePage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 27,
+<<<<<<< Updated upstream
                                     columnNumber: 13
+=======
+                                    columnNumber: 1
+>>>>>>> Stashed changes
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 25,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
@@ -260,7 +304,11 @@ function ProfilePage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 31,
+<<<<<<< Updated upstream
                                     columnNumber: 14
+=======
+                                    columnNumber: 4
+>>>>>>> Stashed changes
                                 }, this),
                                 " ",
                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["investorProfile"].maxInvestmentValue
@@ -268,7 +316,11 @@ function ProfilePage() {
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 31,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
@@ -278,7 +330,11 @@ function ProfilePage() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 32,
+<<<<<<< Updated upstream
                                     columnNumber: 14
+=======
+                                    columnNumber: 4
+>>>>>>> Stashed changes
                                 }, this),
                                 " ",
                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["investorProfile"].investorType
@@ -286,13 +342,21 @@ function ProfilePage() {
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 32,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
                     lineNumber: 22,
+<<<<<<< Updated upstream
                     columnNumber: 9
+=======
+                    columnNumber: 1
+>>>>>>> Stashed changes
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mt-8 w-full",
@@ -303,7 +367,11 @@ function ProfilePage() {
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 37,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "text-gray-700 text-lg space-y-2",
@@ -316,14 +384,22 @@ function ProfilePage() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.tsx",
                                             lineNumber: 39,
+<<<<<<< Updated upstream
                                             columnNumber: 16
+=======
+                                            columnNumber: 4
+>>>>>>> Stashed changes
                                         }, this),
                                         " Investing in apparel brands with a strong focus on sustainability."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 39,
+<<<<<<< Updated upstream
                                     columnNumber: 13
+=======
+                                    columnNumber: 1
+>>>>>>> Stashed changes
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: [
@@ -333,14 +409,22 @@ function ProfilePage() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.tsx",
                                             lineNumber: 40,
+<<<<<<< Updated upstream
                                             columnNumber: 16
+=======
+                                            columnNumber: 4
+>>>>>>> Stashed changes
                                         }, this),
                                         " Interested in companies advancing healthcare solutions and services."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 40,
+<<<<<<< Updated upstream
                                     columnNumber: 13
+=======
+                                    columnNumber: 1
+>>>>>>> Stashed changes
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: [
@@ -350,37 +434,57 @@ function ProfilePage() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.tsx",
                                             lineNumber: 41,
+<<<<<<< Updated upstream
                                             columnNumber: 16
+=======
+                                            columnNumber: 4
+>>>>>>> Stashed changes
                                         }, this),
                                         " Supporting innovative skincare products and natural solutions."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.tsx",
                                     lineNumber: 41,
+<<<<<<< Updated upstream
                                     columnNumber: 13
+=======
+                                    columnNumber: 1
+>>>>>>> Stashed changes
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.tsx",
                             lineNumber: 38,
+<<<<<<< Updated upstream
                             columnNumber: 11
+=======
+                            columnNumber: 1
+>>>>>>> Stashed changes
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
                     lineNumber: 36,
+<<<<<<< Updated upstream
                     columnNumber: 9
+=======
+                    columnNumber: 1
+>>>>>>> Stashed changes
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/profile/page.tsx",
             lineNumber: 8,
+<<<<<<< Updated upstream
             columnNumber: 7
+=======
+            columnNumber: 1
+>>>>>>> Stashed changes
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/profile/page.tsx",
         lineNumber: 6,
-        columnNumber: 5
+        columnNumber: 1
     }, this);
 }
 _c = ProfilePage;

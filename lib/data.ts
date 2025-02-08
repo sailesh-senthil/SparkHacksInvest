@@ -130,5 +130,5 @@ export const investorProfile = {
   linkedin: "linkedin.com/sabrina-arshad",
   maxInvestmentValue: "$50K",
   investorType: "Beginner",
-  profileImage: "/images/investor.jpg"
+  profileImage: "/images/testimonial-08.jpg"
 };

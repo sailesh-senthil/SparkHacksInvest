@@ -139,7 +139,7 @@ const investorProfile = {
     linkedin: "linkedin.com/sabrina-arshad",
     maxInvestmentValue: "$50K",
     investorType: "Beginner",
-    profileImage: "/images/investor.jpg"
+    profileImage: "/images/testimonial-08.jpg"
 };
 }}),
 "[project]/app/explore/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
@@ -317,16 +317,16 @@ function ExplorePage() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: handleReject,
-                        className: "bg-red-500 text-white px-4 py-2 rounded flex items-center gap-2 hover:bg-red-400",
+                        className: "bg-red-500 text-white text-xl px-12 py-4 rounded flex items-center gap-2 hover:bg-red-400",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__XCircle$3e$__["XCircle"], {
-                                size: 20
+                                size: 24
                             }, void 0, false, {
                                 fileName: "[project]/app/explore/page.tsx",
                                 lineNumber: 57,
-                                columnNumber: 11
+                                columnNumber: 12
                             }, this),
-                            " Reject"
+                            " Reject "
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/explore/page.tsx",
@@ -335,20 +335,19 @@ function ExplorePage() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: handleInvest,
-                        className: "bg-green-500 text-white p-3 rounded-full flex items-center justify-center hover:bg-green-400 shadow-lg",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "/images/money-icon.png",
-                            alt: "Invest",
-                            className: "w-6 h-6"
+                        className: "bg-green-500 text-white text-xl px-12 py-4 rounded flex items-center gap-2 hover:bg-green-400",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "text-white",
+                            children: "💰 Invest"
                         }, void 0, false, {
                             fileName: "[project]/app/explore/page.tsx",
-                            lineNumber: 60,
-                            columnNumber: 11
+                            lineNumber: 59,
+                            columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/explore/page.tsx",
-                        lineNumber: 59,
-                        columnNumber: 9
+                        lineNumber: 58,
+                        columnNumber: 12
                     }, this)
                 ]
             }, void 0, true, {

@@ -1,10 +1,16 @@
 {
   "/(default)/page": "app/(default)/page.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   "/profile/page": "app/profile/page.js",
   "/explore/page": "app/explore/page.js",
 >>>>>>> Stashed changes
   "/_not-found/page": "app/_not-found/page.js",
   "/explore/page": "app/explore/page.js"
+=======
+  "/dashboard/page": "app/dashboard/page.js",
+  "/explore/page": "app/explore/page.js",
+  "/profile/page": "app/profile/page.js"
+>>>>>>> Stashed changes
 }
