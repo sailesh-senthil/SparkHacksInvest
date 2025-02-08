@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/saile/Downloads/SparkHacks2025v2/components/ui/header.tsx"],"sourcesContent":["\"use client\";\r\nimport Link from \"next/link\";\r\n\r\nexport default function Header() {\r\n  return (\r\n    <header className=\"bg-blue-900 text-white py-4 px-6 flex justify-between items-center shadow-md\">\r\n      <h1 className=\"text-2xl font-bold\">InvestMatch</h1>\r\n      <nav>\r\n        <ul className=\"flex space-x-6\">\r\n          <li><Link href=\"/dashboard\" className=\"hover:underline\">Dashboard</Link></li>\r\n          <li><Link href=\"/explore\" className=\"hover:underline\">Explore</Link></li>\r\n          <li><Link href=\"/profile\" className=\"hover:underline\">Profile</Link></li>\r\n        </ul>\r\n      </nav>\r\n    </header>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE,6LAAC;QAAO,WAAU;;0BAChB,6LAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,6LAAC;0BACC,cAAA,6LAAC;oBAAG,WAAU;;sCACZ,6LAAC;sCAAG,cAAA,6LAAC,+JAAA,CAAA,UAAI;gCAAC,MAAK;gCAAa,WAAU;0CAAkB;;;;;;;;;;;sCACxD,6LAAC;sCAAG,cAAA,6LAAC,+JAAA,CAAA,UAAI;gCAAC,MAAK;gCAAW,WAAU;0CAAkB;;;;;;;;;;;sCACtD,6LAAC;sCAAG,cAAA,6LAAC,+JAAA,CAAA,UAAI;gCAAC,MAAK;gCAAW,WAAU;0CAAkB;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAKhE;KAbwB"}},
+    {"offset": {"line": 100, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
