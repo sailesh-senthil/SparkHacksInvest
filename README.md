@@ -112,8 +112,8 @@ For more information about what support covers, please see our (FAQs)[https://cr
 
 ## About Us
 
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.-->
+We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
 
 ## Stay in the loop
 
-If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).
+If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/). -->
